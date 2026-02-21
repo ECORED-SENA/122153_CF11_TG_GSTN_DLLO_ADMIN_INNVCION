@@ -13,117 +13,99 @@
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 68%
-    right: 20%    
+    right: 20%
   &-4
-    animation: rotate 3.5s  ease-in-out infinite alternate
+    animation: rotate 3.5s ease-in-out infinite alternate
     position: absolute
     top: 15%
-    right: 16% 
+    right: 16%
     z-index: -1
-    
-
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
-
-@keyframes rotate 
+@keyframes rotate
   0%
-    transform: rotate(0deg);
-  
+    transform: rotate(0deg)
   100%
-    transform: rotate(90deg);
-    
-
-    
-
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
-    color: #000    
+    transform: rotate(90deg)
 
 .text-color
-  color: white !important   
+  color: white !important
 
 .tarjeta-verde
-     background-color: #EDF5E6   !important
-     margin-left: 2rem !important
+  background-color: #EDF5E6 !important
 
-.tabs-a__tab    
+.tabs-a__tab
   background-color: #E8E8E8 !important
 
-.tabs-a__tab.tabs-a__tab__selected  
-  background-color: #3d46c2 !important     
+.tabs-a__tab.tabs-a__tab__selected
+  background-color: #3d46c2 !important
 
-.acordion__activo 
-    background-color: #FCFDEA !important 
+.acordion__activo
+  background-color: #FCFDEA !important
 
 .crd_hover_txt
-  position: relative  
+  position: relative
   padding: 0 !important
-  overflow: hidden !important  
-  &:hover    
-    .crd_hover_txt--body   
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+  overflow: hidden !important
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
-
   .crd_hover_txt--body
     position: absolute
     padding: 1.5rem
-    bottom: 0    
+    bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: rgb(220, 231, 54) 
-  
-  @media (min-width:1200px) and (max-width:1400px)  
-    .crd_hover_txt--body
-      p
-        font-size: 0.85em
+    background-color: rgb(220, 231, 54)
+
 
 .img-infografica__item__numero
-    color: white !important
-
+  color: white !important
 
 .contenido-tarjeta
   background-color: #F8FAD6 !important
 
 .color-verde-contenido-tarjeta
-   background-color:  #CFE5B6  !important
+  background-color: #CFE5B6 !important
 
 .h-tarjetas
-  height: 400px !important 
+  height: 400px !important
 
-.tarjeta.tarjeta-acordeon-gris 
-   .acordion__accion__btn--a
-      background-color: #dce736 !important
-
-.tarjeta.tarjeta-acordeon-gris.acordion__activo      
+.tarjeta.tarjeta-acordeon-gris
   .acordion__accion__btn--a
-    background-color: #dce736 !important    
+    background-color: #dce736 !important
+
+.tarjeta.tarjeta-acordeon-gris.acordion__activo
+  .acordion__accion__btn--a
+    background-color: #dce736 !important
 
 .tarjeta-acordeon-gris
-    background-color: #EFEFEF  
+  background-color: #EFEFEF
 
 .contenido-tarjeta-verde
-  background-color: #BADA97  !important
+  background-color: #BADA97 !important
 
-.contenido-tarjeta-descargas  
-  background-color: #BADA97 !important 
+.contenido-tarjeta-descargas
+  background-color: #BADA97 !important
 
-.tarjeta.tarjeta-acordeon-verde.acordion__activo 
+.tarjeta.tarjeta-acordeon-verde.acordion__activo
   background-color: #EDF6E4 !important
 
-.tarjeta.tarjeta-acordeon-verde 
-   .acordion__accion__btn--a
-      background-color: #dce736 !important
-
-.tarjeta.tarjeta-acordeon-verde.acordion__activo      
+.tarjeta.tarjeta-acordeon-verde
   .acordion__accion__btn--a
-    background-color: #dce736 !important    
+    background-color: #dce736 !important
+
+.tarjeta.tarjeta-acordeon-verde.acordion__activo
+  .acordion__accion__btn--a
+    background-color: #dce736 !important
 
 .tarjeta-acordeon-verde
-    background-color: #EFEFEF    
+  background-color: #EFEFEF
 
 .color-primera-tarjeta
   background-color: #75b62f !important
@@ -132,63 +114,69 @@
   background-color: #A1C877 !important
 
 .color-cuarta-tarjeta
-  background-color: #DFE57B !important  
+  background-color: #DFE57B !important
 
 .color-cajon-naranja-fuerte
-  background-color: #F67409    !important  
+  background-color: #F67409 !important
 
 .color-cajon-naranja-calido
-  background-color: #FDDCC0 !important 
+  background-color: #FDDCC0 !important
 
-
-.tarjeta-pagada 
-  --bs-gutter-y: 0 !important 
-  display: flex !important 
-  flex-wrap: wrap !important 
-  margin-top: calc(var(--bs-gutter-y) * -1) !important 
-  margin-right: calc(var(--bs-gutter-x)/ -2) !important 
-  margin-left: calc(var(--bs-gutter-x)/ -2)  !important 
+.tarjeta-pagada
+  --bs-gutter-y: 0 !important
+  display: flex !important
+  flex-wrap: wrap !important
+  margin-top: calc(var(--bs-gutter-y) * -1) !important
+  margin-right: calc(var(--bs-gutter-x)/ -2) !important
+  margin-left: calc(var(--bs-gutter-x)/ -2) !important
 
 .horizontal-scroll
-  align-items: stretch !important    
+  align-items: stretch !important
 
-.boton *, .boton--sm * 
-  color: #f3f9ff !important 
+.boton *, .boton--sm *
+  color: #f3f9ff !important
 
-.tabs-a__tab 
-    width: 115%;
-    background-color:#E8E8E8
+.tabs-a__tab
+  width: 115%
+  background-color: #E8E8E8
 
 @media (max-width: 500px)
-  .tabs-a__tab 
-    width: 100% 
-
+  .tabs-a__tab
+    width: 100%
 
 .lista-ul li > i:first-of-type
-    color: #3D46C2 
+  color: #3D46C2
 
-.banner-principal__img 
+.banner-principal__img
   padding-top: 0rem !important
   padding-bottom: 0rem !important
-  margin-left: -14%
-  width: 42%
-  margin-top: -7px 
   z-index: 1 !important
-
-.banner-principal__descripcion 
-    margin-right: 100px  
+.banner-principal__descripcion
+  margin-right: 100px
 
 .banner-interno__fondo
-  background-image: url("../assets/curso/temas/banner-interno.png") !important             
+  background-image: url("../assets/curso/temas/banner-interno.png") !important
 
 .tarjeta-verde-claro
-  background-color: #F1F5AE !important 
+  background-color: #F1F5AE !important
 
 .h-azul
   width: 17rem
   height: 25rem
 
 @media (max-width: 500px)
-  .h-azul 
+  .h-azul
     width: 15rem
-    height: 37rem   
+    height: 37rem
+
+// 2026
+figcaption
+  font-weight: normal !important
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 

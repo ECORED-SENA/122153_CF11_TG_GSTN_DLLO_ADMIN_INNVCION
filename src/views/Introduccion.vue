@@ -21,9 +21,10 @@
     .col-sm-8.mb-3
       p.mt-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
     figure
-     .video
-       iframe(width="560" height="315" src="https://www.youtube.com/embed/eH2X2oWgggk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-         
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/eH2X2oWgggk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Modelos matemáticos y estadísticos aplicados en big data - Introducción
+
     
 </template>
 

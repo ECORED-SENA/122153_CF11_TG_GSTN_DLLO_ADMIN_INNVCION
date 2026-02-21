@@ -45,15 +45,18 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
+            numero: '1.1',
             titulo: 'Modelos matemáticos',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
+            titulo: 'Estadística descriptiva',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
+            titulo: 'Estadística inferencial',
             hash: 't_1_3',
           },
         ],
@@ -114,7 +117,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA_11_122153_DU.pdf',
       },
       {
         icono: 'far fa-registered',
