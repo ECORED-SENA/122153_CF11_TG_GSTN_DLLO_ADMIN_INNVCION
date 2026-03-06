@@ -10,7 +10,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="A continuación, se presenta la síntesis del componente formativo: Los modelos matemáticos y estadísticos aplicados al Big Data, los cuales constan de: Big data: datos estructurados, características, datos semiestructurados. Paquetes ofimáticos aplicados al modelado de datos: sistema de gestión lógica, herramientas tecnológicas. Técnicas de toma de decisiones: herramientas, modelos e instrumentos y finalmente los tipos. Estadística inferencial: muestra, población. Analítica de datos: teniendo acá la estadística descriptiva (tabla de frecuencia, gráficos, histograma) y los modelos matemáticos (uso, clasificación).")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

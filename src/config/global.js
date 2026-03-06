@@ -71,7 +71,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '<i>Big data</i>',
+        titulo: '<em>Big data</em>',
         desarrolloContenidos: true,
       },
       {
